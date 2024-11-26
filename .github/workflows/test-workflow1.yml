@@ -4,13 +4,12 @@ name  : Workflow 1
 on : 
   push :
   branches : 
-  - main 
+    - main 
 
 jobs : 
   build :
-  runs-on : ubuntu-latest 
+    runs-on : ubuntu-latest 
   steps :
-  - name : Step 1 
-  run: echo "this is workflow 1" 
+    - name : Step 1 
+      run: echo "this is workflow 1" 
 
-  
